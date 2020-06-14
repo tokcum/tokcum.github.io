@@ -27,9 +27,9 @@ to get successful in the long run.
 We have to 
 
 1. be creative about our vision and work on a attracting mission.
-2. collaborate and exchange ideas with others.
+2. collaborate with others and share ideas amongst us.
 3. master technology and tools.
-4. define and follow our road map step by step.
-5. become active and respected members of the community.
+4. define and follow our roadmap step by step.
+5. become an active and respected member of the community.
 
 Let's get started. Happy coding! ;)
