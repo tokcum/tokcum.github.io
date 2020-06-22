@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Getting started: Mission, Vision & Values"
+title: "Getting started: Mission, Vision & Values"
 author: "tokcum"
 location: "Augsburg"
 time-required: "10 min"
-date:   2020-06-15 22:00:00 +0200
+date: 2020-06-15 22:00:00 +0200
 categories: project
+tags: motivation mission vision values
 ---
 
 Our venture to [become a software developer](/#what it takes to become a software developer)
