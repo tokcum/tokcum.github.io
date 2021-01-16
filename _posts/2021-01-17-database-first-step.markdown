@@ -53,15 +53,9 @@ there are myriads of options at our hands.
 To cut short: I've chosen Rust for the complete stack. It might sound like a strongly opinionated choice,
 but there are good reasons for this commitment. In 2020, I wrote a report about Rust's relevance 
 in secure software development for my employer. Unfortunately I'm not able to disclose the full report 
-here. However, my personal conclusion is that Rust is the way to go. My first experiments with
-
-(1) [Seed][seed-rs.org_seed-project-site] in the front end,
-
-(2) [Actix][actix.rs_actix-project-site] as the runtime of the application server and 
-
-(3) [Sqlx][github.com_sqlx-repo] to interface with the database 
-
-were very promising, and despite the steep learning curve a lot of fun. Just as a 
+here. However, my personal conclusion is that Rust is the way to go. My first experiments with 
+WebAssembly in the front end, Actix as the runtime of the application server and Sqlx to interface 
+with the database were very promising, and despite the steep learning curve a lot of fun. Just as a 
 reminder: this is still a project with a strong focus on learning.
 
 # Business Model
@@ -75,12 +69,6 @@ not by licensing revenues.
 
 #### in English
 
-[Actix Project, last accessed on 2021-01-16][actix.rs_actix-project-site]
-
-[Seed Project, last accessed on 2021-01-16][seed-rs.org_seed-project-site]
-
-[Sqlx Repo, last accessed on 2021-01-16][github.com_sqlx-repo]
-
 [ZDNet: Atlassian to end sale and support of on-premise server products by 2024, last accessed on 2021-01-16][zdnet.com_atlassian-to-end-sale-and-support-of-on-premise-server]
 
  
@@ -89,7 +77,4 @@ not by licensing revenues.
 None.
 
 [//]: # (Links)
-[actix.rs_actix-project-site]: https://actix.rs/
-[seed-rs.org_seed-project-site]: https://seed-rs.org/
-[github.com_sqlx-repo]: https://github.com/launchbadge/sqlx
 [zdnet.com_atlassian-to-end-sale-and-support-of-on-premise-server]: https://www.zdnet.com/article/atlassian-to-end-sale-and-support-of-on-premise-server-products-by-2024/
