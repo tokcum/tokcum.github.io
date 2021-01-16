@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Database I: Access a Database from Rust"
+title:  "Database I: Accessing a Database from Rust"
 author: "tokcum"
 location: "Augsburg"
 time-required: "10 min"
