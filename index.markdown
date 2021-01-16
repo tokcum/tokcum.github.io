@@ -4,7 +4,7 @@ layout: home
 
 This is about my journey to become a software developer. Yes, it is a late start. 
 Most of my professional career in IT I spent on infrastructure, projects and 
-operations, processes and leadership. Lately I gave it a new orientation 
+operations, processes and leadership. In 2018, I gave it a new orientation 
 by changing from IT over to Engineering.
 
 I always felt comfortable writing my own scripts and glue code to automate 
@@ -15,6 +15,11 @@ So, how hard might it be to actually become a developer working on software
 products on a daily base? For me it meant to leave my comfort zone. I wondered 
 how I could approach the topic, how to climb a steep learning curve quickly 
 and how to break it down into "digestible" pieces.
+
+As I'm used to conducting trainings for professionals and to accompanying 
+apprentices and students in their learning process, I thought about building 
+upon my teaching experience by externalizing my own learning process in 
+becoming a software developer.
 
 My blog is about this journey. It aims to jump start your journey to become 
 a software developer especially if you didn't start your career in this field. 
