@@ -75,18 +75,17 @@ not by licensing revenues.
 
 #### in English
 
+[ZDNet: Atlassian to end sale and support of on-premise server products by 2024, last accessed on 2021-01-16][zdnet.com_atlassian-to-end-sale-and-support-of-on-premise-server]
+
+ 
+# References 
+
 [Actix Project, last accessed on 2021-01-16][actix.rs_actix-project-site]
 
 [Seed Project, last accessed on 2021-01-16][seed-rs.org_seed-project-site]
 
 [Sqlx Repo, last accessed on 2021-01-16][github.com_sqlx-repo]
 
-[ZDNet: Atlassian to end sale and support of on-premise server products by 2024, last accessed on 2021-01-16][zdnet.com_atlassian-to-end-sale-and-support-of-on-premise-server]
-
- 
-# References 
-
-None.
 
 [//]: # (Links)
 [actix.rs_actix-project-site]: https://actix.rs/
