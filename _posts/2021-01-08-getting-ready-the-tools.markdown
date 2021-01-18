@@ -223,8 +223,17 @@ So, that's it for today. We have our tools up and running and I'm looking forwar
 
 # Footnotes
 
-[^1]: Thinking of a corporate environment where several developers have to work with the same toolchain consistently, the individual installation into personal homes is definitely not the best choice. I have already solved this requirement at work and maybe I describe the approach taken in another post.
+[^1]: Thinking of a corporate environment where several developers have to work with the same toolchain consistently, 
+    the individual installation into personal homes is definitely not the best choice.
+    I have already solved this requirement at work and maybe I describe the approach taken in another post.
 
-[^2]: At the times I worked with Arch Linux in 2019 and 20 I experienced two times issues with this package which stopped my productivity completely. The problems arose from incompatibilities with the JDK package delivered with Arch. JetBrains officially supports only the JDK (called JBR) delivered together with IntelliJ IDEA, but the Arch package maintainers do not include it into the IntelliJ IDEA package for some reason and instead rely on the JDK included with Arch. Browsing through the [Arch Linux forum][archlinux.org_forum] this is not a one time but regular issue. If you are on Arch Linux consider using the AUR package which includes the JBR and just works fine.
+[^2]: At the times I worked with Arch Linux in 2019 and 20 I experienced two times issues with this package 
+    which stopped my productivity completely. The problems arose from incompatibilities with the JDK package 
+    delivered with Arch. JetBrains officially supports only the JDK (called JBR) delivered together with 
+    IntelliJ IDEA, but the Arch package maintainers do not include it into the IntelliJ IDEA package for 
+    some reason and instead rely on the JDK included with Arch. Browsing through the 
+    [Arch Linux forum][archlinux.org_forum] this is not a one time but regular issue. 
+    If you are on Arch Linux consider using the AUR package which includes the JBR and just works fine.
 
-[^3]: Again, this might not be the best deployment option in a corporate environment. 
+[^3]: Again, this might not be the best deployment option in a corporate environment.
+
