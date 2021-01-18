@@ -108,10 +108,6 @@ are mandatory for installation. That's why I have to use _sudo_.
 With _rustup_ installed we are able to manage the Rust toolchain without administrative rights because 
 _rustup_ works in our home directory in _~/.rustup_ and installs the tools to ~/.cargo[^1].
 
-[^1]: Thinking of a corporate environment where several developers have to work with the same toolchain 
-consistently, the individual installation into personal homes is definitely not the best choice. I have already 
-solved this requirement at work and maybe I describe the approach taken in another post.
-
 So let's get started with _rustup_.
 
     [tobias@chiemsee ~]$ rustup --version
@@ -170,18 +166,9 @@ This allows us to get started quickly. Just call _pacman_ from the console, sear
 shown previously. From my experience on Arch Linux this package has issues from time to time[^2]. These were 
 covered so far by Manjaro due to there additional testing and user focused attitude.
 
-[^2]: At the times I worked with Arch Linux in 2019 and 20 I experienced two times issues with this package which 
-stopped my productivity completely. The problems arose from incompatibilities with the JDK package delivered with 
-Arch. JetBrains officially supports only the JDK (called JBR) delivered together with IntelliJ IDEA, 
-but the Arch package maintainers do not include it into the IntelliJ IDEA package for some reason and instead 
-rely on the JDK included with Arch. Browsing through the [Arch Linux forum][archlinux.org_forum] this is not 
-a one time but regular issue. If you are on Arch Linux consider using the AUR package which includes the JBR 
-and just works fine.
-
 The Rust plugin is installed separately within IntelliJ IDEA in the menu _File > Settings > Plugins_. It has 
 dependency to the TOML plugin which is automatically resolved and both plugins get installed [^3]
 
-[^3]: Again, this might not be the best deployment option in a corporate environment. 
 
 So, that's it for today. We have our tools up and running and I'm looking forward to setting up the Rust project.
 
@@ -233,3 +220,11 @@ So, that's it for today. We have our tools up and running and I'm looking forwar
 [rustup.rs_rustup-project-site]: https://rustup.rs/
 [rust-lang.org_rust_install]: https://www.rust-lang.org/tools/install
 [rust-lang.github.io_rustup-book]: https://rust-lang.github.io/rustup/index.html
+
+# Footnotes
+
+[^1]: Thinking of a corporate environment where several developers have to work with the same toolchain consistently, the individual installation into personal homes is definitely not the best choice. I have already solved this requirement at work and maybe I describe the approach taken in another post.
+
+[^2]: At the times I worked with Arch Linux in 2019 and 20 I experienced two times issues with this package which stopped my productivity completely. The problems arose from incompatibilities with the JDK package delivered with Arch. JetBrains officially supports only the JDK (called JBR) delivered together with IntelliJ IDEA, but the Arch package maintainers do not include it into the IntelliJ IDEA package for some reason and instead rely on the JDK included with Arch. Browsing through the [Arch Linux forum][archlinux.org_forum] this is not a one time but regular issue. If you are on Arch Linux consider using the AUR package which includes the JBR and just works fine.
+
+[^3]: Again, this might not be the best deployment option in a corporate environment. 
