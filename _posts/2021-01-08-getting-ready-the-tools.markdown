@@ -67,15 +67,15 @@ _pamac-manager_ available in the menu. However, for brevity I use _pacman_ at th
 for all packages whose name start with _rust_:
 
 ```bash
-    [tobias@chiemsee ~]$ pacman -Ss ^rust
-    extra/rust 1:1.48.0-1
-        Systems programming language focused on safety, speed and concurrency
-    extra/rust-docs 1:1.48.0-1
-        Documentation for the Rust programming language
-    [...]
-    community/rustup 1.23.1-1
-        The Rust toolchain installer
-    [tobias@chiemsee ~]$
+[tobias@chiemsee ~]$ pacman -Ss ^rust
+extra/rust 1:1.48.0-1
+    Systems programming language focused on safety, speed and concurrency
+extra/rust-docs 1:1.48.0-1
+    Documentation for the Rust programming language
+[...]
+community/rustup 1.23.1-1
+    The Rust toolchain installer
+[tobias@chiemsee ~]$
 ```
 
 So Manjaro has _rust_ in version 1.48 available in the repos (as of January 8th 2021). Looking for 
@@ -93,20 +93,20 @@ _rustup_ is also available in the Manjaro repos. So I install it from there. Ple
 are mandatory for installation. That's why I have to use _sudo_.
 
 ```bash
-    [tobias@chiemsee ~]$ sudo pacman -S rustup
-    resolving dependencies...
-    looking for conflicting packages...
-    
-    Packages (1) rustup-1.23.1-1
-    
-    Total Installed Size:  6.95 MiB
-    
-    :: Proceed with installation? [Y/n] Y
-    [...]
-    [tobias@chiemsee ~]$ pacman -Ss rustup
-    community/rustup 1.23.1-1 [installed]
-    The Rust toolchain installer
-    [tobias@chiemsee ~]$
+[tobias@chiemsee ~]$ sudo pacman -S rustup
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) rustup-1.23.1-1
+
+Total Installed Size:  6.95 MiB
+
+:: Proceed with installation? [Y/n] Y
+[...]
+[tobias@chiemsee ~]$ pacman -Ss rustup
+community/rustup 1.23.1-1 [installed]
+The Rust toolchain installer
+[tobias@chiemsee ~]$
 ```
 
 With _rustup_ installed we are able to manage the Rust toolchain without administrative rights because 
@@ -115,15 +115,15 @@ _rustup_ works in our home directory in _~/.rustup_ and installs the tools to ~/
 So let's get started with _rustup_.
 
 ```bash
-    [tobias@chiemsee ~]$ rustup --version
-    rustup 1.23.1 (2020-12-18)
-    info: This is the version for the rustup toolchain manager, not the rustc compiler.
-    [tobias@chiemsee ~]$ rustup show
-    Default host: x86_64-unknown-linux-gnu
-    rustup home:  /home/tobias/.rustup
-    
-    no active toolchain
-    [tobias@chiemsee ~]$
+[tobias@chiemsee ~]$ rustup --version
+rustup 1.23.1 (2020-12-18)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+[tobias@chiemsee ~]$ rustup show
+Default host: x86_64-unknown-linux-gnu
+rustup home:  /home/tobias/.rustup
+
+no active toolchain
+[tobias@chiemsee ~]$
 ```
 
 So there is no active toolchain yet. For now, I choose to install the latest stable rust release and _rustup_ 
@@ -131,36 +131,36 @@ figures out my platform and installs the appropriate toolchain consisting severa
 _clippy_, _rustc_ and others. Finally, this toolchain is set as default. 
 
 ```bash
-    [tobias@chiemsee ~]$ rustup toolchain install stable
-    info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
-    info: latest update on 2020-12-31, rust version 1.49.0 (e1884a8e3 2020-12-29)
-    info: downloading component 'cargo'
-    [...]
-    info: downloading component 'clippy'
-    [...]
-    info: downloading component 'rustc'
-    [...]
+[tobias@chiemsee ~]$ rustup toolchain install stable
+info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
+info: latest update on 2020-12-31, rust version 1.49.0 (e1884a8e3 2020-12-29)
+info: downloading component 'cargo'
+[...]
+info: downloading component 'clippy'
+[...]
+info: downloading component 'rustc'
+[...]
 
-    stable-x86_64-unknown-linux-gnu installed - rustc 1.49.0 (e1884a8e3 2020-12-29)
-    
-    info: default toolchain set to 'stable-x86_64-unknown-linux-gnu'
-    [tobias@chiemsee ~]$
-    [...]
-    [tobias@chiemsee ~]$
-````
+stable-x86_64-unknown-linux-gnu installed - rustc 1.49.0 (e1884a8e3 2020-12-29)
+
+info: default toolchain set to 'stable-x86_64-unknown-linux-gnu'
+[tobias@chiemsee ~]$
+[...]
+[tobias@chiemsee ~]$
+```
 
 We can now check the availability of _rustc_ via _rustup_ or by directly running _rustc_.
 
 ```bash
-    [tobias@chiemsee ~]$ rustup show
-    Default host: x86_64-unknown-linux-gnu
-    rustup home:  /home/tobias/.rustup
-    
-    stable-x86_64-unknown-linux-gnu (default)
-    rustc 1.49.0 (e1884a8e3 2020-12-29)
-    [tobias@chiemsee ~]$ rustc --version
-    rustc 1.49.0 (e1884a8e3 2020-12-29)
-    [tobias@chiemsee ~]$
+[tobias@chiemsee ~]$ rustup show
+Default host: x86_64-unknown-linux-gnu
+rustup home:  /home/tobias/.rustup
+
+stable-x86_64-unknown-linux-gnu (default)
+rustc 1.49.0 (e1884a8e3 2020-12-29)
+[tobias@chiemsee ~]$ rustc --version
+rustc 1.49.0 (e1884a8e3 2020-12-29)
+[tobias@chiemsee ~]$
 ```
 
 By the way _rustup_ is completely covered in the [Rustup Book][rust-lang.github.io_rustup-book].
@@ -246,4 +246,3 @@ So, that's it for today. We have our tools up and running and I'm looking forwar
     If you are on Arch Linux consider using the AUR package which includes the JBR and just works fine.
 
 [^3]: Again, this might not be the best deployment option in a corporate environment.
-
